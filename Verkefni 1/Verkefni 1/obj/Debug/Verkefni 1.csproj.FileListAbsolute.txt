@@ -1,0 +1,9 @@
+H:\For3a\Verkefni 1\Verkefni 1\bin\Debug\Verkefni 1.exe.config
+H:\For3a\Verkefni 1\Verkefni 1\bin\Debug\Verkefni 1.exe
+H:\For3a\Verkefni 1\Verkefni 1\bin\Debug\Verkefni 1.pdb
+H:\For3a\Verkefni 1\Verkefni 1\obj\Debug\Verkefni 1.csprojResolveAssemblyReference.cache
+H:\For3a\Verkefni 1\Verkefni 1\obj\Debug\Verkefni_1.Form1.resources
+H:\For3a\Verkefni 1\Verkefni 1\obj\Debug\Verkefni_1.Properties.Resources.resources
+H:\For3a\Verkefni 1\Verkefni 1\obj\Debug\Verkefni 1.csproj.GenerateResource.Cache
+H:\For3a\Verkefni 1\Verkefni 1\obj\Debug\Verkefni 1.exe
+H:\For3a\Verkefni 1\Verkefni 1\obj\Debug\Verkefni 1.pdb
