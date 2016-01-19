@@ -34,7 +34,7 @@ class Ball
         // loop until the program is terminated
         while (true)
         {
-            Thread.Sleep(20); // sleep for 20 milliseconds
+            Thread.Sleep(40); // sleep for 20 milliseconds
 
             x += dx; // move ball horizontally
 

@@ -16,13 +16,13 @@ namespace Verkefni_1
         List<Ball> balls = new List<Ball>();
         private Random generator = new Random();
         public int counter = 0;
-        Color[] colors = new Color[10]{Color.Blue, Color.Red, Color.Tomato, Color.Yellow, Color.HotPink, Color.Honeydew, Color.IndianRed, Color.LightGoldenrodYellow, Color.SteelBlue, Color.Gold};
+        Color[] colors = new Color[10]{Color.Blue, Color.Red, Color.Tomato, Color.Yellow, Color.HotPink, Color.Purple, Color.IndianRed, Color.LimeGreen, Color.SteelBlue, Color.Gold};
 
         private void paint()
         {
             while (true)
             {
-                Thread.Sleep(40);
+                Thread.Sleep(500);
                 BallPanel.Invalidate();
             }
         }
@@ -47,7 +47,7 @@ namespace Verkefni_1
 
         private void BallPanel_MouseClick(object sender, MouseEventArgs e)
         {
-            Ball ball = new Ball(e.X, e.Y, 20, colors[generator.Next(10)], generator.Next(10), generator.Next(10), BallPanel.Size.Width, BallPanel.Size.Height);
+            Ball ball = new Ball(e.X, e.Y, generator.Next(30, 60), colors[generator.Next(10)], generator.Next(2, 10), generator.Next(2, 10), BallPanel.Size.Width, BallPanel.Size.Height);
             balls.Add(ball);
 
             Thread baller = new Thread(new ThreadStart(ball.Run));
