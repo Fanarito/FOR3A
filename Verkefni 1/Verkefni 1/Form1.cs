@@ -42,14 +42,11 @@ namespace Verkefni_1
         private void BallPanel_Paint(object sender, PaintEventArgs e)
         {
             // Only draw when there are some balls
-            if (balls.Any())
+            Graphics gr = e.Graphics;
+            foreach (var ball in balls)
             {
-                Graphics gr = e.Graphics;
-                foreach (var ball in balls)
-                {
-                    SolidBrush sb = new SolidBrush(ball.Color);
-                    gr.FillEllipse(sb, ball.X, ball.Y, ball.Radius, ball.Radius);   
-                }
+                SolidBrush sb = new SolidBrush(ball.Color);
+                gr.FillEllipse(sb, ball.X, ball.Y, ball.Radius, ball.Radius);   
             }
         }
 
