@@ -7,3 +7,12 @@ H:\For3a\Verkefni 1\Verkefni 1\obj\Debug\Verkefni_1.Properties.Resources.resourc
 H:\For3a\Verkefni 1\Verkefni 1\obj\Debug\Verkefni 1.csproj.GenerateResource.Cache
 H:\For3a\Verkefni 1\Verkefni 1\obj\Debug\Verkefni 1.exe
 H:\For3a\Verkefni 1\Verkefni 1\obj\Debug\Verkefni 1.pdb
+X:\Viktor\Documents\FOR3A\Verkefni 1\Verkefni 1\bin\Debug\Verkefni 1.exe.config
+X:\Viktor\Documents\FOR3A\Verkefni 1\Verkefni 1\obj\Debug\Verkefni 1.exe
+X:\Viktor\Documents\FOR3A\Verkefni 1\Verkefni 1\obj\Debug\Verkefni 1.pdb
+X:\Viktor\Documents\FOR3A\Verkefni 1\Verkefni 1\obj\Debug\Verkefni 1.csprojResolveAssemblyReference.cache
+X:\Viktor\Documents\FOR3A\Verkefni 1\Verkefni 1\obj\Debug\Verkefni_1.Form1.resources
+X:\Viktor\Documents\FOR3A\Verkefni 1\Verkefni 1\obj\Debug\Verkefni_1.Properties.Resources.resources
+X:\Viktor\Documents\FOR3A\Verkefni 1\Verkefni 1\obj\Debug\Verkefni 1.csproj.GenerateResource.Cache
+X:\Viktor\Documents\FOR3A\Verkefni 1\Verkefni 1\bin\Debug\Verkefni 1.exe
+X:\Viktor\Documents\FOR3A\Verkefni 1\Verkefni 1\bin\Debug\Verkefni 1.pdb

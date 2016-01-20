@@ -16,14 +16,21 @@ namespace Verkefni_1
         List<Ball> balls = new List<Ball>();
         private Random generator = new Random();
         public int counter = 0;
+        // Colors for randomization
         Color[] colors = new Color[10]{Color.Blue, Color.Red, Color.Tomato, Color.Yellow, Color.HotPink, Color.Purple, Color.IndianRed, Color.LimeGreen, Color.SteelBlue, Color.Gold};
 
         private void paint()
         {
             while (true)
             {
-                Thread.Sleep(500);
-                BallPanel.Invalidate();
+                Thread.Sleep(32);
+                /*
+                * Faster than BallPanel.Invalidate();
+                */
+                this.Invoke((MethodInvoker)delegate
+                {
+                    this.Refresh();
+                });
             }
         }
 
@@ -34,7 +41,8 @@ namespace Verkefni_1
 
         private void BallPanel_Paint(object sender, PaintEventArgs e)
         {
-            if (balls != null)
+            // Only draw when there are some balls
+            if (balls.Any())
             {
                 Graphics gr = e.Graphics;
                 foreach (var ball in balls)
@@ -47,24 +55,29 @@ namespace Verkefni_1
 
         private void BallPanel_MouseClick(object sender, MouseEventArgs e)
         {
-            Ball ball = new Ball(e.X, e.Y, generator.Next(30, 60), colors[generator.Next(10)], generator.Next(2, 10), generator.Next(2, 10), BallPanel.Size.Width, BallPanel.Size.Height);
+            // Create ball and add to the ball list for drawing.
+            // The ball starts at mouse coordinates, and has random speed, size and color.
+            // Then start the ball movement calculations in other thread
+            Ball ball = new Ball(e.X, e.Y, generator.Next(30, 60), colors[generator.Next(0, 10)], generator.Next(2, 10), generator.Next(2, 10), BallPanel.Size.Width, BallPanel.Size.Height);
             balls.Add(ball);
 
             Thread baller = new Thread(new ThreadStart(ball.Run));
             baller.Start();
+            // Count the balls
             counter++;
             ballCounter.Text = counter.ToString();
 
-            if (balls.Any()) 
+            // Make sure to start the thread only ones
+            if (counter == 1) 
             {
                 Thread painter = new Thread(new ThreadStart(paint));
                 painter.Start();
             }
-            BallPanel.Invalidate();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
+            // Killing it with fire
             Environment.Exit(Environment.ExitCode);
         }
     }
