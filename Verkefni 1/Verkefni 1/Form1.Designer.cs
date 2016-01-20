@@ -30,6 +30,8 @@
         {
             this.BallPanel = new System.Windows.Forms.Panel();
             this.ballCounter = new System.Windows.Forms.Label();
+            this.nud_AmountOfBalls = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.nud_AmountOfBalls)).BeginInit();
             this.SuspendLayout();
             // 
             // BallPanel
@@ -50,16 +52,40 @@
             this.ballCounter.TabIndex = 1;
             this.ballCounter.Text = "0";
             // 
+            // nud_AmountOfBalls
+            // 
+            this.nud_AmountOfBalls.Location = new System.Drawing.Point(727, 29);
+            this.nud_AmountOfBalls.Maximum = new decimal(new int[] {
+            500,
+            0,
+            0,
+            0});
+            this.nud_AmountOfBalls.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nud_AmountOfBalls.Name = "nud_AmountOfBalls";
+            this.nud_AmountOfBalls.Size = new System.Drawing.Size(43, 20);
+            this.nud_AmountOfBalls.TabIndex = 2;
+            this.nud_AmountOfBalls.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 493);
+            this.Controls.Add(this.nud_AmountOfBalls);
             this.Controls.Add(this.ballCounter);
             this.Controls.Add(this.BallPanel);
             this.Name = "Form1";
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            ((System.ComponentModel.ISupportInitialize)(this.nud_AmountOfBalls)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -69,6 +95,7 @@
 
         private System.Windows.Forms.Panel BallPanel;
         private System.Windows.Forms.Label ballCounter;
+        private System.Windows.Forms.NumericUpDown nud_AmountOfBalls;
     }
 }
 
