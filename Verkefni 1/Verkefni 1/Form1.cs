@@ -23,7 +23,7 @@ namespace Verkefni_1
         {
             while (true)
             {
-                Thread.Sleep(32);
+                Thread.Sleep(16);
                 /*
                 * Faster than BallPanel.Invalidate();
                 */
@@ -41,7 +41,7 @@ namespace Verkefni_1
                 // Create ball and add to the ball list for drawing.
                 // The ball starts at mouse coordinates, and has random speed, size and color.
                 // Then start the ball movement calculations in other thread
-                Ball ball = new Ball(e.X, e.Y, generator.Next(30, 60), colors[generator.Next(0, 10)], generator.Next(2, 10), generator.Next(2, 10), BallPanel.Size.Width, BallPanel.Size.Height);
+                Ball ball = new Ball(e.X, e.Y, generator.Next(30, 60), colors[generator.Next(0, 10)], generator.Next(2, 20), generator.Next(2, 20), BallPanel.Size.Width, BallPanel.Size.Height);
                 balls.Add(ball);
 
                 Thread baller = new Thread(new ThreadStart(ball.Run));

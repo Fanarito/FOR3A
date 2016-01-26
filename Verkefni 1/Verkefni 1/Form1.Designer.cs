@@ -38,9 +38,9 @@
             // 
             // BallPanel
             // 
-            this.BallPanel.Location = new System.Drawing.Point(12, 12);
+            this.BallPanel.Location = new System.Drawing.Point(0, -1);
             this.BallPanel.Name = "BallPanel";
-            this.BallPanel.Size = new System.Drawing.Size(705, 469);
+            this.BallPanel.Size = new System.Drawing.Size(730, 482);
             this.BallPanel.TabIndex = 0;
             this.BallPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.BallPanel_Paint);
             this.BallPanel.MouseClick += new System.Windows.Forms.MouseEventHandler(this.BallPanel_MouseClick);
