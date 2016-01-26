@@ -16,3 +16,12 @@ X:\Viktor\Documents\FOR3A\Verkefni 1\Verkefni 1\obj\Debug\Verkefni_1.Properties.
 X:\Viktor\Documents\FOR3A\Verkefni 1\Verkefni 1\obj\Debug\Verkefni 1.csproj.GenerateResource.Cache
 X:\Viktor\Documents\FOR3A\Verkefni 1\Verkefni 1\bin\Debug\Verkefni 1.exe
 X:\Viktor\Documents\FOR3A\Verkefni 1\Verkefni 1\bin\Debug\Verkefni 1.pdb
+H:\önn 6\þræðir\Verkefni 1\Verkefni 1\bin\Debug\Verkefni 1.exe.config
+H:\önn 6\þræðir\Verkefni 1\Verkefni 1\obj\Debug\Verkefni 1.exe
+H:\önn 6\þræðir\Verkefni 1\Verkefni 1\obj\Debug\Verkefni 1.pdb
+H:\önn 6\þræðir\Verkefni 1\Verkefni 1\bin\Debug\Verkefni 1.exe
+H:\önn 6\þræðir\Verkefni 1\Verkefni 1\bin\Debug\Verkefni 1.pdb
+H:\önn 6\þræðir\Verkefni 1\Verkefni 1\obj\Debug\Verkefni 1.csprojResolveAssemblyReference.cache
+H:\önn 6\þræðir\Verkefni 1\Verkefni 1\obj\Debug\Verkefni_1.Form1.resources
+H:\önn 6\þræðir\Verkefni 1\Verkefni 1\obj\Debug\Verkefni_1.Properties.Resources.resources
+H:\önn 6\þræðir\Verkefni 1\Verkefni 1\obj\Debug\Verkefni 1.csproj.GenerateResource.Cache
