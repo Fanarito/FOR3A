@@ -1,0 +1,2 @@
+H:\önn 6\þræðir\Verkefni 3\client\ChatClient\obj\Debug\ChatClient.exe
+H:\önn 6\þræðir\Verkefni 3\client\ChatClient\obj\Debug\ChatClient.pdb

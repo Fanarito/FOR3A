@@ -1,0 +1,7 @@
+E:\VOR2016\FOR3A\ch23\ch23\Fig23_01\ChatServer\obj\Release\ChatServer.exe
+E:\VOR2016\FOR3A\ch23\ch23\Fig23_01\ChatServer\obj\Release\ChatServer.pdb
+E:\VOR2016\FOR3A\ch23\ch23\Fig23_01\ChatServer\bin\Release\ChatServer.exe
+E:\VOR2016\FOR3A\ch23\ch23\Fig23_01\ChatServer\bin\Release\ChatServer.pdb
+E:\VOR2016\FOR3A\ch23\ch23\Fig23_01\ChatServer\obj\Release\ChatServerForm.resources
+E:\VOR2016\FOR3A\ch23\ch23\Fig23_01\ChatServer\obj\Release\ChatServer.Properties.Resources.resources
+E:\VOR2016\FOR3A\ch23\ch23\Fig23_01\ChatServer\obj\Release\ChatServer.csproj.GenerateResource.Cache

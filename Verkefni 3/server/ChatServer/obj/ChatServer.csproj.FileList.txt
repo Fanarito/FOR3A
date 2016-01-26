@@ -1,0 +1,8 @@
+obj\Release\ChatServer.exe
+obj\Release\ChatServer.pdb
+bin\Release\ChatServer.exe
+bin\Release\ChatServer.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\ChatServer.Properties.Resources.resources
+obj\Release\ChatServer.csproj.GenerateResource.Cache
+obj\Release\ChatServerForm.resources
