@@ -31,6 +31,8 @@
             this.BallPanel = new System.Windows.Forms.Panel();
             this.ballCounter = new System.Windows.Forms.Label();
             this.nud_AmountOfBalls = new System.Windows.Forms.NumericUpDown();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nud_AmountOfBalls)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,7 +48,7 @@
             // ballCounter
             // 
             this.ballCounter.AutoSize = true;
-            this.ballCounter.Location = new System.Drawing.Point(724, 13);
+            this.ballCounter.Location = new System.Drawing.Point(124, 515);
             this.ballCounter.Name = "ballCounter";
             this.ballCounter.Size = new System.Drawing.Size(13, 13);
             this.ballCounter.TabIndex = 1;
@@ -54,7 +56,7 @@
             // 
             // nud_AmountOfBalls
             // 
-            this.nud_AmountOfBalls.Location = new System.Drawing.Point(727, 29);
+            this.nud_AmountOfBalls.Location = new System.Drawing.Point(127, 487);
             this.nud_AmountOfBalls.Maximum = new decimal(new int[] {
             500,
             0,
@@ -74,11 +76,31 @@
             0,
             0});
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(55, 515);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(66, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Fjöldi bolta : ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(9, 489);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(112, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Fjöldi settir inn í einu : ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(782, 493);
+            this.ClientSize = new System.Drawing.Size(729, 552);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.nud_AmountOfBalls);
             this.Controls.Add(this.ballCounter);
             this.Controls.Add(this.BallPanel);
@@ -96,6 +118,8 @@
         private System.Windows.Forms.Panel BallPanel;
         private System.Windows.Forms.Label ballCounter;
         private System.Windows.Forms.NumericUpDown nud_AmountOfBalls;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
