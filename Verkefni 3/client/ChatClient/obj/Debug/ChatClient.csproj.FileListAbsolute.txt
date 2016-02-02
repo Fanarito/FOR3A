@@ -1,8 +1,19 @@
 H:\önn 6\þræðir\Verkefni 3\client\ChatClient\obj\Debug\ChatClient.exe
 H:\önn 6\þræðir\Verkefni 3\client\ChatClient\obj\Debug\ChatClient.pdb
+<<<<<<< HEAD
 H:\önn 6\þræðir\Verkefni 3\client\ChatClient\bin\Debug\ChatClient.exe
 H:\önn 6\þræðir\Verkefni 3\client\ChatClient\bin\Debug\ChatClient.pdb
 H:\önn 6\þræðir\Verkefni 3\client\ChatClient\obj\Debug\ChatClient.csprojResolveAssemblyReference.cache
 H:\önn 6\þræðir\Verkefni 3\client\ChatClient\obj\Debug\ChatClientForm.resources
 H:\önn 6\þræðir\Verkefni 3\client\ChatClient\obj\Debug\ChatClient.Properties.Resources.resources
 H:\önn 6\þræðir\Verkefni 3\client\ChatClient\obj\Debug\ChatClient.csproj.GenerateResource.Cache
+=======
+C:\Users\vikto\Documents\FOR3A\Verkefni 3\client\ChatClient\bin\Debug\ChatClient.exe.config
+C:\Users\vikto\Documents\FOR3A\Verkefni 3\client\ChatClient\obj\Debug\ChatClient.exe
+C:\Users\vikto\Documents\FOR3A\Verkefni 3\client\ChatClient\obj\Debug\ChatClient.pdb
+C:\Users\vikto\Documents\FOR3A\Verkefni 3\client\ChatClient\bin\Debug\ChatClient.exe
+C:\Users\vikto\Documents\FOR3A\Verkefni 3\client\ChatClient\bin\Debug\ChatClient.pdb
+C:\Users\vikto\Documents\FOR3A\Verkefni 3\client\ChatClient\obj\Debug\ChatClientForm.resources
+C:\Users\vikto\Documents\FOR3A\Verkefni 3\client\ChatClient\obj\Debug\ChatClient.Properties.Resources.resources
+C:\Users\vikto\Documents\FOR3A\Verkefni 3\client\ChatClient\obj\Debug\ChatClient.csproj.GenerateResource.Cache
+>>>>>>> refs/remotes/origin/master

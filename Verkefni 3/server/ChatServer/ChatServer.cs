@@ -49,7 +49,7 @@ public partial class ChatServerForm : Form
            Invoke(new MethodInvoker(() => DisplayMessage(message)));
        } // end if
       else // OK to modify displayTextBox in current thread
-         displayTextBox.Text += message;
+         displayTextBox.AppendText(message);
    } // end method DisplayMessage
 
    // delegate that allows method DisableInput to be called 
@@ -78,7 +78,7 @@ public partial class ChatServerForm : Form
          if ( e.KeyCode == Keys.Enter && inputTextBox.ReadOnly == false )
          {
             writer.Write( "SERVER>>> " + inputTextBox.Text );
-            displayTextBox.Text += "\r\nSERVER>>> " + inputTextBox.Text;
+            displayTextBox.AppendText("\r\nSERVER>>> " + inputTextBox.Text);
 
             // if the user at the server signaled termination
             // sever the connection to the client

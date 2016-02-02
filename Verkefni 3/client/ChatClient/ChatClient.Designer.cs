@@ -26,41 +26,42 @@ partial class ChatClientForm
    /// </summary>
    private void InitializeComponent()
    {
-      this.inputTextBox = new System.Windows.Forms.TextBox();
-      this.displayTextBox = new System.Windows.Forms.TextBox();
-      this.SuspendLayout();
-      // 
-      // inputTextBox
-      // 
-      this.inputTextBox.Location = new System.Drawing.Point( 13, 13 );
-      this.inputTextBox.Name = "inputTextBox";
-      this.inputTextBox.ReadOnly = true;
-      this.inputTextBox.Size = new System.Drawing.Size( 267, 20 );
-      this.inputTextBox.TabIndex = 0;
-      this.inputTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler( this.inputTextBox_KeyDown );
-      // 
-      // displayTextBox
-      // 
-      this.displayTextBox.Location = new System.Drawing.Point( 13, 40 );
-      this.displayTextBox.Multiline = true;
-      this.displayTextBox.Name = "displayTextBox";
-      this.displayTextBox.ReadOnly = true;
-      this.displayTextBox.Size = new System.Drawing.Size( 267, 214 );
-      this.displayTextBox.TabIndex = 1;
-      // 
-      // ChatClientForm
-      // 
-      this.AutoScaleDimensions = new System.Drawing.SizeF( 6F, 13F );
-      this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size( 292, 266 );
-      this.Controls.Add( this.displayTextBox );
-      this.Controls.Add( this.inputTextBox );
-      this.Name = "ChatClientForm";
-      this.Text = "Chat Client";
-      this.Load += new System.EventHandler( this.ChatClientForm_Load );
-      this.FormClosing += new System.Windows.Forms.FormClosingEventHandler( this.ChatClientForm_FormClosing );
-      this.ResumeLayout( false );
-      this.PerformLayout();
+            this.inputTextBox = new System.Windows.Forms.TextBox();
+            this.displayTextBox = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // inputTextBox
+            // 
+            this.inputTextBox.Location = new System.Drawing.Point(13, 13);
+            this.inputTextBox.Name = "inputTextBox";
+            this.inputTextBox.ReadOnly = true;
+            this.inputTextBox.Size = new System.Drawing.Size(267, 20);
+            this.inputTextBox.TabIndex = 0;
+            this.inputTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.inputTextBox_KeyDown);
+            // 
+            // displayTextBox
+            // 
+            this.displayTextBox.Location = new System.Drawing.Point(13, 40);
+            this.displayTextBox.Multiline = true;
+            this.displayTextBox.Name = "displayTextBox";
+            this.displayTextBox.ReadOnly = true;
+            this.displayTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.displayTextBox.Size = new System.Drawing.Size(267, 214);
+            this.displayTextBox.TabIndex = 1;
+            // 
+            // ChatClientForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(292, 266);
+            this.Controls.Add(this.displayTextBox);
+            this.Controls.Add(this.inputTextBox);
+            this.Name = "ChatClientForm";
+            this.Text = "Chat Client";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ChatClientForm_FormClosing);
+            this.Load += new System.EventHandler(this.ChatClientForm_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
    }
 
