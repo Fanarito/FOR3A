@@ -45,13 +45,10 @@ public partial class ChatClientForm : Form
       // if modifying displayTextBox is not thread safe
       if ( displayTextBox.InvokeRequired )
       {
-         // use inherited method Invoke to execute DisplayMessage
-         // via a delegate                                       
-         Invoke( new DisplayDelegate( DisplayMessage ),          
-            new object[] { message } );                          
+         Invoke(new MethodInvoker(() => DisplayMessage(message)));                  
       } // end if
       else // OK to modify displayTextBox in current thread
-         displayTextBox.Text += message;
+         displayTextBox.Text += message; 
    } // end method DisplayMessage
 
    // delegate that allows method DisableInput to be called 
@@ -63,14 +60,11 @@ public partial class ChatClientForm : Form
    private void DisableInput( bool value )
    {
       // if modifying inputTextBox is not thread safe
-      if ( inputTextBox.InvokeRequired )
+      if ( displayTextBox.InvokeRequired )
       {
-         // use inherited method Invoke to execute DisableInput
-         // via a delegate                                     
-         Invoke( new DisableInputDelegate( DisableInput ),     
-            new object[] { value } );                          
+          Invoke(new MethodInvoker(() => DisableInput(value)));                  
       } // end if
-      else // OK to modify inputTextBox in current thread
+      else // OK to modify displayTextBox in current thread
          inputTextBox.ReadOnly = value;
    } // end method DisableInput
 
@@ -132,7 +126,7 @@ public partial class ChatClientForm : Form
                System.Environment.Exit( System.Environment.ExitCode );
             } // end catch
          } while ( message != "SERVER>>> TERMINATE" );
-      
+            
          // Step 4: close connection
          writer.Close();            
          reader.Close();            

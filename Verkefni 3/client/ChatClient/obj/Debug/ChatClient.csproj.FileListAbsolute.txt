@@ -1,2 +1,8 @@
 H:\önn 6\þræðir\Verkefni 3\client\ChatClient\obj\Debug\ChatClient.exe
 H:\önn 6\þræðir\Verkefni 3\client\ChatClient\obj\Debug\ChatClient.pdb
+H:\önn 6\þræðir\Verkefni 3\client\ChatClient\bin\Debug\ChatClient.exe
+H:\önn 6\þræðir\Verkefni 3\client\ChatClient\bin\Debug\ChatClient.pdb
+H:\önn 6\þræðir\Verkefni 3\client\ChatClient\obj\Debug\ChatClient.csprojResolveAssemblyReference.cache
+H:\önn 6\þræðir\Verkefni 3\client\ChatClient\obj\Debug\ChatClientForm.resources
+H:\önn 6\þræðir\Verkefni 3\client\ChatClient\obj\Debug\ChatClient.Properties.Resources.resources
+H:\önn 6\þræðir\Verkefni 3\client\ChatClient\obj\Debug\ChatClient.csproj.GenerateResource.Cache
