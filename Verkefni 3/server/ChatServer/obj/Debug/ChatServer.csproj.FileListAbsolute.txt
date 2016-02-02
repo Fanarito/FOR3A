@@ -1,0 +1,8 @@
+H:\önn 6\þræðir\Verkefni 3\server\ChatServer\bin\Debug\ChatServer.exe
+H:\önn 6\þræðir\Verkefni 3\server\ChatServer\bin\Debug\ChatServer.pdb
+H:\önn 6\þræðir\Verkefni 3\server\ChatServer\obj\Debug\ChatServer.csprojResolveAssemblyReference.cache
+H:\önn 6\þræðir\Verkefni 3\server\ChatServer\obj\Debug\ChatServerForm.resources
+H:\önn 6\þræðir\Verkefni 3\server\ChatServer\obj\Debug\ChatServer.Properties.Resources.resources
+H:\önn 6\þræðir\Verkefni 3\server\ChatServer\obj\Debug\ChatServer.csproj.GenerateResource.Cache
+H:\önn 6\þræðir\Verkefni 3\server\ChatServer\obj\Debug\ChatServer.exe
+H:\önn 6\þræðir\Verkefni 3\server\ChatServer\obj\Debug\ChatServer.pdb

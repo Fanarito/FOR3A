@@ -43,14 +43,11 @@ public partial class ChatServerForm : Form
    // in a thread-safe manner
    private void DisplayMessage( string message )
    {
-      // if modifying displayTextBox is not thread safe
-      if ( displayTextBox.InvokeRequired )
-      {
-         // use inherited method Invoke to execute DisplayMessage
-         // via a delegate                                       
-         Invoke( new DisplayDelegate( DisplayMessage ),          
-            new object[] { message } );                          
-      } // end if
+       // if modifying displayTextBox is not thread safe
+       if (displayTextBox.InvokeRequired)
+       {
+           Invoke(new MethodInvoker(() => DisplayMessage(message)));
+       } // end if
       else // OK to modify displayTextBox in current thread
          displayTextBox.AppendText(message);
    } // end method DisplayMessage
@@ -64,14 +61,11 @@ public partial class ChatServerForm : Form
    private void DisableInput( bool value )
    {
       // if modifying inputTextBox is not thread safe
-      if ( inputTextBox.InvokeRequired )
+      if (inputTextBox.InvokeRequired)
       {
-         // use inherited method Invoke to execute DisableInput
-         // via a delegate                                     
-         Invoke( new DisableInputDelegate( DisableInput ),     
-            new object[] { value } );                          
+            Invoke(new MethodInvoker(() => DisableInput(value)));
       } // end if
-      else // OK to modify inputTextBox in current thread
+      else
          inputTextBox.ReadOnly = value;
    } // end method DisableInput
 
