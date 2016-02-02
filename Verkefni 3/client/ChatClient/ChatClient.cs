@@ -51,7 +51,7 @@ public partial class ChatClientForm : Form
             new object[] { message } );                          
       } // end if
       else // OK to modify displayTextBox in current thread
-         displayTextBox.Text += message;
+         displayTextBox.AppendText(message);
    } // end method DisplayMessage
 
    // delegate that allows method DisableInput to be called 
@@ -82,7 +82,7 @@ public partial class ChatClientForm : Form
          if ( e.KeyCode == Keys.Enter && inputTextBox.ReadOnly == false )
          {
             writer.Write( "CLIENT>>> " + inputTextBox.Text );
-            displayTextBox.Text += "\r\nCLIENT>>> " + inputTextBox.Text;
+            displayTextBox.AppendText("\r\nCLIENT>>> " + inputTextBox.Text);
             inputTextBox.Clear();            
          } // end if
       } // end try
