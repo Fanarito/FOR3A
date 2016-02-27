@@ -14,7 +14,6 @@ namespace ATM_Console_Client
         static void Main(string[] args)
         {
             ATM.Connect();
-            Console.ReadKey();
         }
 
         static void CurrentDomain_ProcessExit(object sender, EventArgs e)
@@ -140,7 +139,7 @@ namespace ATM_Console_Client
             }
             catch (IOException)
             {
-                Console.WriteLine("Server is down, game over");
+                Console.WriteLine("Server is down");
                 Thread.Sleep(1000);
             }
         }

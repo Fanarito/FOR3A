@@ -33,7 +33,7 @@ namespace ATM_Server
             ATM.Connect_DB();
             //User test = new User("Viktor", "12345", "1234", 500000);
             //test.Save();
-            //User test = new User("John", "54321", "4321", 500000);
+            //test = new User("John", "54321", "4321", 500000);
             //test.Save();
         }
 
@@ -61,6 +61,18 @@ namespace ATM_Server
                 Log("Connection accepted");
             }
         }
+
+        private void btn_see_users_Click(object sender, EventArgs e)
+        {
+            dgv_users.Rows.Clear();
+            string sql = string.Format("SELECT * FROM Users");
+            SQLiteCommand command = new SQLiteCommand(sql, ATM.DB);
+            SQLiteDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                dgv_users.Rows.Add(reader["name"], reader["account_number"], reader["pin"], string.Format("{0:C}", reader["balance"]));
+            }
+        }
     }
 
     internal static class ATM
@@ -72,10 +84,14 @@ namespace ATM_Server
             SQLiteConnection.CreateFile("Users.sqlite");
             DB.Open();
 
+            //string sql = "DROP table Users";
+            //SQLiteCommand command = new SQLiteCommand(sql, DB);
+            //command.ExecuteNonQuery();
+
             // Create a table for user
             try
             {
-                string sql = "create table Users (name varchar(20), account_number varchar(5), pin varchar(4), balance decimal(19, 4))";
+                string sql = "create table Users (name varchar(20), account_number varchar(5) PRIMARY KEY, pin varchar(4), balance decimal(19, 4))";
                 SQLiteCommand command = new SQLiteCommand(sql, DB);
                 command.ExecuteNonQuery();
             }
