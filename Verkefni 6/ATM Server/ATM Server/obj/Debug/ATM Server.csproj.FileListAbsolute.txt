@@ -1,0 +1,17 @@
+x:\viktor\documents\visual studio 2015\Projects\ATM Server\ATM Server\bin\Debug\ATM Server.exe.config
+x:\viktor\documents\visual studio 2015\Projects\ATM Server\ATM Server\bin\Debug\ATM Server.exe
+x:\viktor\documents\visual studio 2015\Projects\ATM Server\ATM Server\bin\Debug\ATM Server.pdb
+x:\viktor\documents\visual studio 2015\Projects\ATM Server\ATM Server\obj\Debug\ATM Server.csprojResolveAssemblyReference.cache
+x:\viktor\documents\visual studio 2015\Projects\ATM Server\ATM Server\obj\Debug\ATM_Server.Form1.resources
+x:\viktor\documents\visual studio 2015\Projects\ATM Server\ATM Server\obj\Debug\ATM_Server.Properties.Resources.resources
+x:\viktor\documents\visual studio 2015\Projects\ATM Server\ATM Server\obj\Debug\ATM Server.csproj.GenerateResource.Cache
+x:\viktor\documents\visual studio 2015\Projects\ATM Server\ATM Server\obj\Debug\ATM Server.exe
+x:\viktor\documents\visual studio 2015\Projects\ATM Server\ATM Server\obj\Debug\ATM Server.pdb
+x:\viktor\documents\visual studio 2015\Projects\ATM Server\ATM Server\bin\Debug\EntityFramework.dll
+x:\viktor\documents\visual studio 2015\Projects\ATM Server\ATM Server\bin\Debug\EntityFramework.SqlServer.dll
+x:\viktor\documents\visual studio 2015\Projects\ATM Server\ATM Server\bin\Debug\System.Data.SQLite.dll
+x:\viktor\documents\visual studio 2015\Projects\ATM Server\ATM Server\bin\Debug\System.Data.SQLite.EF6.dll
+x:\viktor\documents\visual studio 2015\Projects\ATM Server\ATM Server\bin\Debug\System.Data.SQLite.Linq.dll
+x:\viktor\documents\visual studio 2015\Projects\ATM Server\ATM Server\bin\Debug\EntityFramework.xml
+x:\viktor\documents\visual studio 2015\Projects\ATM Server\ATM Server\bin\Debug\EntityFramework.SqlServer.xml
+x:\viktor\documents\visual studio 2015\Projects\ATM Server\ATM Server\bin\Debug\System.Data.SQLite.xml

@@ -1,0 +1,5 @@
+x:\viktor\documents\visual studio 2015\Projects\ATM Console Client\ATM Console Client\bin\Debug\ATM Console Client.exe.config
+x:\viktor\documents\visual studio 2015\Projects\ATM Console Client\ATM Console Client\bin\Debug\ATM Console Client.exe
+x:\viktor\documents\visual studio 2015\Projects\ATM Console Client\ATM Console Client\bin\Debug\ATM Console Client.pdb
+x:\viktor\documents\visual studio 2015\Projects\ATM Console Client\ATM Console Client\obj\Debug\ATM Console Client.exe
+x:\viktor\documents\visual studio 2015\Projects\ATM Console Client\ATM Console Client\obj\Debug\ATM Console Client.pdb
