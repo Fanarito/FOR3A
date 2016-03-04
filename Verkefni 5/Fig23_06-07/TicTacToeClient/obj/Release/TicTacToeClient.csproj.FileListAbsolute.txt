@@ -1,0 +1,8 @@
+E:\VOR2016\FOR3A\ch23\ch23\Fig23_06-07\TicTacToeClient\obj\Release\TicTacToeClient.exe
+E:\VOR2016\FOR3A\ch23\ch23\Fig23_06-07\TicTacToeClient\obj\Release\TicTacToeClient.pdb
+E:\VOR2016\FOR3A\ch23\ch23\Fig23_06-07\TicTacToeClient\bin\Release\TicTacToeClient.exe
+E:\VOR2016\FOR3A\ch23\ch23\Fig23_06-07\TicTacToeClient\bin\Release\TicTacToeClient.pdb
+E:\VOR2016\FOR3A\ch23\ch23\Fig23_06-07\TicTacToeClient\obj\Release\TicTacToeClient.Properties.Resources.resources
+E:\VOR2016\FOR3A\ch23\ch23\Fig23_06-07\TicTacToeClient\obj\Release\TicTacToeClientForm.resources
+E:\VOR2016\FOR3A\ch23\ch23\Fig23_06-07\TicTacToeClient\obj\Release\TicTacToeClient.csproj.GenerateResource.Cache
+E:\VOR2016\FOR3A\ch23\ch23\Fig23_06-07\TicTacToeClient\obj\Release\TicTacToeClient.csprojResolveAssemblyReference.cache

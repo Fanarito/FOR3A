@@ -1,0 +1,16 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TicTacToeClient.Properties.Resources.resources
+obj\Debug\TicTacToeClient.TicTacToeClientForm.resources
+obj\Debug\TicTacToeClient.csproj.GenerateResource.Cache
+bin\Debug\TicTacToeClient.exe
+bin\Debug\TicTacToeClient.pdb
+obj\Debug\TicTacToeClient.exe
+obj\Debug\TicTacToeClient.pdb
+bin\Release\TicTacToeClient.exe
+bin\Release\TicTacToeClient.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\TicTacToeClient.Properties.Resources.resources
+obj\Release\TicTacToeClient.csproj.GenerateResource.Cache
+obj\Release\TicTacToeClient.exe
+obj\Release\TicTacToeClient.pdb
+obj\Release\TicTacToeClientForm.resources
