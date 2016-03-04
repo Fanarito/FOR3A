@@ -35,6 +35,8 @@ namespace ATM_Server
             //test.Save();
             //test = new User("John", "54321", "4321", 500000);
             //test.Save();
+            //test = new User("Ásgeir", "420", "6969", 500000);
+            //test.Save();
         }
 
         public void Log(string message)
@@ -114,7 +116,7 @@ namespace ATM_Server
 
     public class User
     {
-        private string Name;
+        public string Name;
         private string AccountNumber;
         private string Pin;
         private decimal Balance;
@@ -237,22 +239,32 @@ namespace ATM_Server
                     server.Log("Wrote login");
 
                     string login = reader.ReadString();
-                    server.Log(login);
+                    //server.Log(login);
                     user = ATM.Login(login.Split(';')[0], login.Split(';')[1]);
 
                     if (user != null)
                     {
+                        server.Log(user.Name + " logged in");
                         writer.Write("confirmed");
                         loggedIn = true;
                     }
+                    else server.Log("failed login");
 
                 }
 
                 while (loggedIn)
                 {
-                    string input = reader.ReadString();
-                    server.Log(input);
-                    ProcessMessage(input);
+                    try
+                    {
+                        string input = reader.ReadString();
+                        server.Log(input);
+                        ProcessMessage(input);
+                    }
+                    catch (Exception)
+                    {
+                        server.Log(user.Name + " exited");
+                        Disconnect();
+                    }
                 }
             }
         }
