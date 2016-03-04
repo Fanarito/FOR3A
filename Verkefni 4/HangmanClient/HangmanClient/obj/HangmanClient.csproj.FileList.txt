@@ -1,0 +1,16 @@
+bin\Debug\HangmanClient.exe
+bin\Debug\HangmanClient.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\HangmanClientForm.resources
+obj\Debug\HangmanClient.Properties.Resources.resources
+obj\Debug\HangmanClient.csproj.GenerateResource.Cache
+obj\Debug\HangmanClient.exe
+obj\Debug\HangmanClient.pdb
+bin\Release\HangmanClient.exe
+bin\Release\HangmanClient.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\HangmanClientForm.resources
+obj\Release\HangmanClient.Properties.Resources.resources
+obj\Release\HangmanClient.csproj.GenerateResource.Cache
+obj\Release\HangmanClient.exe
+obj\Release\HangmanClient.pdb

@@ -1,0 +1,10 @@
+obj\Debug\Hangman Server.exe
+obj\Debug\Hangman Server.pdb
+bin\Release\Hangman Server.exe
+bin\Release\Hangman Server.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\HangmanServerForm.resources
+obj\Release\Hangman_Server.Properties.Resources.resources
+obj\Release\Hangman Server.csproj.GenerateResource.Cache
+obj\Release\Hangman Server.exe
+obj\Release\Hangman Server.pdb

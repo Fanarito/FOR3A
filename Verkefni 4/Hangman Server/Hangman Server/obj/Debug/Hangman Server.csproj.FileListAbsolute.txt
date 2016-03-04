@@ -1,0 +1,12 @@
+S:\FOR3A\Skilaverkefni4\Hangman Server\Hangman Server\obj\Debug\Hangman Server.exe
+S:\FOR3A\Skilaverkefni4\Hangman Server\Hangman Server\obj\Debug\Hangman Server.pdb
+H:\FOR Threading\TCP IP  II\Hangman Server\Hangman Server\obj\Debug\Hangman Server.exe
+H:\FOR Threading\TCP IP  II\Hangman Server\Hangman Server\obj\Debug\Hangman Server.pdb
+H:\FOR Threading\TCP IP  II\Hangman Server\Hangman Server\bin\Debug\Hangman Server.exe
+H:\FOR Threading\TCP IP  II\Hangman Server\Hangman Server\bin\Debug\Hangman Server.pdb
+H:\FOR Threading\TCP IP  II\Hangman Server\Hangman Server\obj\Debug\Hangman Server.csprojResolveAssemblyReference.cache
+H:\FOR Threading\TCP IP  II\Hangman Server\Hangman Server\obj\Debug\HangmanServerForm.resources
+H:\FOR Threading\TCP IP  II\Hangman Server\Hangman Server\obj\Debug\Hangman_Server.Properties.Resources.resources
+H:\FOR Threading\TCP IP  II\Hangman Server\Hangman Server\obj\Debug\Hangman Server.csproj.GenerateResource.Cache
+H:\FOR_Threading\TCP IP  II\Hangman Server\Hangman Server\obj\Debug\Hangman Server.exe
+H:\FOR_Threading\TCP IP  II\Hangman Server\Hangman Server\obj\Debug\Hangman Server.pdb
